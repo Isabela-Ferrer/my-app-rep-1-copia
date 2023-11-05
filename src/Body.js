@@ -9,22 +9,22 @@ function Body() {
           <img src={image}  alt="classroom" className="img-fluid rounded" />
         </div>
         <div className="col-8 mt-5 mb-md-0 text-start mx-auto">
-          <h1 className="text-primary mb-4">Aprendiendo a leer a través de discusiones</h1>
+          <h1 className="text-primary mb-4">Learning how to read through discussions</h1>
           <p style={{lineHeight: "30px"}}>
-          Usa esta plataforma para planear actividades de clase que involucran interacciones entre los estudiantes y el tutor/profesor. Para hacerlo, necesitas la siguiente información:</p>
+          Use this platform to plan class activities that involve interactions between students and the tutor/teacher. To do so, you need the following information:</p>
           <ul style={{lineHeight: "30px"}}>
-            <li>La duración deseada de la discusión.
+            <li>The desired duration of the discussion.
             </li>
-            <li>El rango de edad de los estudiantes.</li>
-            <li>La habilidad que quieres practicar a través de la discusión.</li>
-            <li>Dificultades que están teniendo los estudiantes a la hora de practicar esta habilidad. </li>
-            <li>Contenido corto en el cual quieres basar la discusión: 
+            <li>The age range of the students.</li>
+            <li>The skill you want children to practice through this discussion.</li>
+            <li>Difficulties students are currently having when it comes to using this skill. </li>
+            <li>Short content you want to base the discussion on: 
                 <ul>
-                    <li><a href="https://kidshealth.org/es/kids/bodyarticles.html">Textos informativos</a></li>
-                    <li><a href="https://cuentosparadormir.com/cuentos-cortos">Cuentos cortos</a></li>
-                    <li><a href="https://arbolabc.com/ciencias-tecnologia">Articulos acerca de ciencia y tecnología </a></li>
-                    <li><a href="https://www.mundoprimaria.com/lecturas-para-ninos-primaria/lecturas-cortas-y-rapidas">Leyendas, cuentos y fábulas </a></li>
-                    <li>Cualquier otra cosa! </li>
+                    <li><a href="https://kidshealth.org/es/kids/bodyarticles.html">Informative texts </a></li>
+                    <li><a href="https://cuentosparadormir.com/cuentos-cortos">Short stories</a></li>
+                    <li><a href="https://arbolabc.com/ciencias-tecnologia">Science and technology articles</a></li>
+                    <li><a href="http://www.history-for-kids.com/myths-and-legends.html">Myths and leyends</a></li>
+                    <li>Anything else </li>
                 </ul>
                 
             </li>
