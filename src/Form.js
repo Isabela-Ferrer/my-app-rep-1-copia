@@ -63,6 +63,7 @@ function TeacherForm() {
           
         } catch (error) {
           console.error("Error:", error);
+          setLessonPlan("ERROR: There has been an error in your request. Most likely, this has to do with your API key.")
         }
       }
 
@@ -154,6 +155,7 @@ function TeacherForm() {
         <button type="submit" className="btn btn-primary">
           Submit
         </button>
+        <p className="subtle p-5">Only hit sumbit once! The response may take a couple seconds to appear.</p>
       </form>
       
       {formSubmitted && <h1 className="my-5- p-5 text-primary">Planned structure: </h1>}
