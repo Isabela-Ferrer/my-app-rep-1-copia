@@ -36,3 +36,11 @@
     transform: rotate(360deg);
   }
 }
+
+
+body {
+  background: rgb(230, 230, 248); /* Replace with your image path */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* Optional: Keep the image fixed */
+}
