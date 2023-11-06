@@ -9,7 +9,7 @@ function Body() {
           <img src={image}  alt="classroom" className="img-fluid rounded" />
         </div>
         <div className="col-8 mt-5 mb-md-0 text-start mx-auto">
-          <h1 className="text-primary mb-4">Learning how to read and write through discussions</h1>
+          <h1 className="text-primary mb-4">Teaching how to read and write through discussions</h1>
           <p style={{lineHeight: "30px"}}>
           Use this platform to plan class activities that involve interactions between students and the tutor/teacher. To do so, you need the following information:</p>
           <ul style={{lineHeight: "30px"}}>
