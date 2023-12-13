@@ -34,8 +34,9 @@ function TeacherForm() {
         ${formData.goal} due to their difficulties in ${formData.skill}.
         You should plan a lesson based on the following context:
         "${formData.context}"
-        Generate a detailed outline for the class, including discussion topics, time stamps, team activities 
-        and any necessary resources.`}],
+        Generate a detailed outline for the class, including discussion 
+        topics, time stamps, any necessary resources, and specifically team 
+        activities and interactions.`}],
         temperature: 0.5,
         max_tokens: 1000,
         top_p: 1.0,
@@ -68,7 +69,7 @@ function TeacherForm() {
       }
 
   return (
-    <div className="text-start p-5 col-8 mx-auto bg-white">
+    <div className="text-start p-5 col-8 mx-auto bg-white border mt-4" style={{backgroundColor: "gray rgb(224, 224, 224)"}}>
       <h2>Let's plan!</h2>
       <form onSubmit={handleSubmit}>
       <div className="form-group p-4">
@@ -152,13 +153,13 @@ function TeacherForm() {
             The study of galaxies plays a crucial role in our understanding of the universe, providing us with information about its composition, evolution, star formation and large-scale dynamics. Despite advances in astronomy, there are still many mysteries to discover about galaxies, such as the nature of dark matter and dark energy, which seem to influence their evolution and the expansion of the universe. Galaxies are witnesses to the immensity of the cosmos and offer us a fascinating vision of space and time.'
           ></textarea>
         </div>
-        <button type="submit" className="btn btn-primary">
+        <button type="submit" className="btn btn-primary my-5 mx-4">
           Submit
         </button>
-      {!formSubmitted && <p className="subtle p-5">Only hit sumbit once! The response may take a couple seconds to appear.</p>}
+      {!formSubmitted && <p className="subtle my-5">Only hit sumbit once! The response may take a couple seconds to appear.</p>}
       </form>
       
-      {formSubmitted && <h1 className="my-5- p-5 text-primary">Planned structure: </h1>}
+      {formSubmitted && <h1 className="p-5 text-primary">Planned structure: </h1>}
         <p className="px-5">{lessonPlan}</p>
 
     </div>
