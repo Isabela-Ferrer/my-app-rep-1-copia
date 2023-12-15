@@ -23,7 +23,7 @@ function Body() {
       </div>
       <div class="row">
       <div className="col-8 mx-auto mx-3 mb-md-0 mt-5">
-          <img src={image}  alt="classroom" className="img-fluid rounded" />
+          <img src={image}  alt="classroom" className="img-fluid rounded mb-5" />
         </div>
         </div>
     </div>

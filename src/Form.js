@@ -70,7 +70,7 @@ function TeacherForm() {
 
   return (
     <div className="text-start p-5 col-8 mx-auto bg-white border mt-4" style={{backgroundColor: "gray rgb(224, 224, 224)"}}>
-      <h2>Let's plan!</h2>
+      <h2 className='text-primary display-5 '>Let's plan!</h2>
       <form onSubmit={handleSubmit}>
       <div className="form-group p-4">
           <label htmlFor="goal">Open AI API Key:</label>
