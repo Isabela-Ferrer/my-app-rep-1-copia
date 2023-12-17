@@ -4,11 +4,11 @@ import image from "./images/image.jpg"
 function Body() {
   return (
     <div className="container my-3 bg-white col-8">
-      <div className="row w-100 mx-auto">
-        <div className="col-6 mt-5 mb-md-0 text-start mx-auto">
-          <h1 className="text-primary display-3 mb-4">Teaching reading and writing skills through discussions</h1>
+      <div className="row w-100 mx-auto row-cols-lg-2 row-cols-1">
+        <div className="col mt-5 mb-md-0 text-start mx-auto">
+          <h1 className="text-primary display-3 mb-2">Teaching reading and writing skills through discussions</h1>
           </div>
-          <div className="col-6 text-start mt-5">
+        <div className="col text-start mt-5">
           <p style={{lineHeight: "30px"}}>
           Use this platform to plan class activities that involve interactions between students and the tutor/teacher. To do so, you need the following information:</p>
           <ul style={{lineHeight: "30px"}}>
