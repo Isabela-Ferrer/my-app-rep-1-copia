@@ -17,7 +17,7 @@ function Body() {
             <li>The age range of the students.</li>
             <li>The skill you want children to practice through this discussion.</li>
             <li>Difficulties students are currently having when it comes to using this skill. </li>
-            <li>Short content you want to base the discussion on: <a href="https://kidshealth.org/es/kids/bodyarticles.html">informative texts </a>, <a href="https://cuentosparadormir.com/cuentos-cortos">short stories</a>, <a href="https://arbolabc.com/ciencias-tecnologia">science and technology articles</a>, <a href="http://www.history-for-kids.com/myths-and-legends.html">myths and leyends</a>, or anything else!</li>
+            <li>Short content you want to base the discussion on: <a href="https://kidshealth.org/es/kids/bodyarticles.html">informative texts</a>, <a href="https://cuentosparadormir.com/cuentos-cortos">short stories</a>, <a href="https://arbolabc.com/ciencias-tecnologia">science and technology articles</a>, <a href="http://www.history-for-kids.com/myths-and-legends.html">myths and leyends</a>, or anything else!</li>
                </ul>
         </div>
       </div>
